@@ -13,7 +13,6 @@
 #include <string>
 #include <vector>
 #include <memory>
-#include "layout.hpp"
 #include <stdbool.h>
 #include <stdbool.h>
 #include <random>
@@ -32,7 +31,6 @@ private:
     int wolfCode[8];
 
 public:
-    std::shared_ptr<Layout> rootLayoutPtr;
     GUIFileWolfram(int width, int height)
     : width(width), height(height) {
 

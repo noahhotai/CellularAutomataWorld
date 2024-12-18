@@ -13,7 +13,6 @@
 #include <string>
 #include <vector>
 #include <memory>
-#include "layout.hpp"
 #include <stdbool.h>
 #include <stdbool.h>
 #include <random>
